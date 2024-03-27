@@ -1,0 +1,320 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 500px;
+    background-color: whitesmoke;
+}
+.outer{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    position: relative;
+    z-index: 1;
+}
+/*todo  first one*/
+
+.side1{
+    width: 20%;
+    height: 300px;
+    display: grid;
+    justify-content: center;
+    margin-top: 200px;
+    position: relative;
+}
+.tri1{
+    width: 0;
+    height: 0;
+    border-left: 80px solid aliceblue;
+    border-right: 80px solid aliceblue;
+    border-bottom: 100px solid brown;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.Sc2{
+    width: 80px;
+    height: 40px;
+    background-color: gray;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    position: absolute;
+    top: 50px;
+    margin-right: 10px;
+    border: 2px solid black;
+}
+.rec1{
+    width: 160px;
+    height: 200px;
+    background-color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+
+/* todo second one*/
+.home{
+    width: 60%;
+    height: 500px;
+    background-color: whitesmoke;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.top{
+    width: 800px;
+    height: 75px;
+    border-left: 50px solid whitesmoke;
+    border-right: 50px solid whitesmoke;
+    border-bottom: 100px solid brown;
+    position:absolute;
+}
+.tri{
+    width: 200;
+    height: 200;
+    border-left: 80px solid brown;
+    border-right: 80px solid brown;
+    border-bottom: 100px solid white;
+    position: absolute;
+    top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.Sc1{
+    width: 140px;
+    height: 70px;
+    background-color: gray;
+    border-top-left-radius: 120px;
+    border-top-right-radius: 120px;
+    position: absolute;
+    top: 50px;
+    border: 2px solid black;
+}
+.door{
+    width: 800px;
+    height: 300px;
+    position: absolute;
+    top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    top:200px;
+} 
+
+
+.one{
+    width: 100px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+}
+.one1{
+    width: 100%;
+    height: 200px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 10px;
+}
+.oneSc{
+    width: 80px;
+    height: 40px;
+    background-color: gray;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    position: absolute;
+    top: 40px;
+    left: 7;
+    border: 2px solid black;
+}
+.onerec{
+    width: 80px;
+    height: 100px;
+    background-color: sandybrown;
+    position: absolute;
+    top: 80px;
+    left: 7;
+    border: 2px solid brown;
+}
+
+.three{
+    width: 200px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.three table
+{
+    position: relative;
+    top: 30px;
+}
+.Screc{
+    display: grid;
+    width: 100%;
+    height: 300px;
+    grid-template-columns: auto;
+    position: relative;
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+}
+.Sc{
+    width: 80px;
+    height: 40px;
+    background-color: gray;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    position: absolute;
+    top: 90px;
+    left: 30px;
+    border: 2px solid black;
+}
+.rec{
+    width: 80px;
+    height: 160px;
+    background-color: sandybrown;
+    position: absolute;
+    top: 130px;
+    left: 30px;
+    border: 2px solid brown;
+}
+
+
+.two{
+    width: 100px;
+    height: 300px;
+}
+.two2{
+    width: 100%;
+    height: 200px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.twoSc{
+    width: 80px;
+    height: 40px;
+    background-color: gray;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    position: absolute;
+    top: 40px;
+    left: 7px;
+    border: 2px solid black;
+}
+.tworec{
+    width: 80px;
+    height: 100px;
+    background-color: sandybrown;
+    position: absolute;
+    top: 80px;
+    left: 7px;
+    border: 2px solid brown;
+} 
+
+/*todo third*/
+.nature{
+    width: 20%;
+    height: 500px;
+    display: flex;
+    z-index: 1;
+}
+.first {
+    width: 100px;
+    height: 310px;
+    display: grid;
+    grid-template-columns: auto;
+    position: relative;
+    top: 195px;
+    
+}
+.tree1{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    border-radius: 100% 0%;
+    rotate: -45deg;
+    position: absolute;
+    top: 20px;
+    z-index: 1;
+}
+.stem1
+{
+    width: 5px;
+    height: 200px;
+    background-color: brown;
+    position: absolute;
+    top: 100px;
+    left: 47px;
+}
+
+.second{    
+    width: 100px;
+    height: 310px;
+    display: grid;
+    grid-template-columns: auto;
+    position: relative;
+    top: 195px;
+}
+
+.tree2{
+    width: 80px;
+    height: 80px;
+    background-color: green;
+    border-radius: 100% 0%;
+    rotate: -45deg;
+    position: absolute;
+    z-index: 1;
+    top: 100px;
+}
+.stem2
+{
+    width: 4px;
+    height: 190px;
+    background-color: brown;
+    position: absolute;
+    top: 110px;
+    left: 37px;
+} 
+
+.pic1{
+    width: 212px;
+    height: 250px;
+    position: absolute;
+    left: 830px;
+    top:260px;
+    z-index: 0;
+}
+.pic2{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 50px;
+    left: 0;
+}
+.pic3{
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    top: 330px;
+    left: 300px;
+    z-index: 1;
+    opacity: 90%;
+    border-radius: 20%;
+}
+.pic4{
+    width: 302px;
+    height: 260px;
+    position: absolute;
+    z-index: 0;
+    top: 10px;
+    left: 740px;
+}
